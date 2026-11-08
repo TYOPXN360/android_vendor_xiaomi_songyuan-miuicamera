@@ -1,0 +1,3 @@
+# Only VCS metadata is excluded; the blobs are tracked so the camera package
+# can be restored without re-extracting the stock dump.
+.git/
