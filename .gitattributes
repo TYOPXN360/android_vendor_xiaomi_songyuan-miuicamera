@@ -1,0 +1,4 @@
+# Only the camera APK exceeds GitHub's 100 MB object limit; everything else,
+# including MiuiScanner, is stored as a regular blob.
+proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk filter=lfs diff=lfs merge=lfs -text
+proprietary/product/priv-app/MiuiCamera/MiuiCamera.apk filter=lfs diff=lfs merge=lfs -text
