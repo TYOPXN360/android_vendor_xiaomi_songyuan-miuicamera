@@ -157,10 +157,11 @@ cc_prebuilt_library_shared {
 android_app_import {
     name: "MiuiCamera",
     owner: "xiaomi",
-    apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
+    apk: "proprietary/product/priv-app/MiuiCamera/MiuiCamera.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
     privileged: true,
+    product_specific: true,
 }
